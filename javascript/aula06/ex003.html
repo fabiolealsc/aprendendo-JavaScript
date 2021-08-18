@@ -1,0 +1,31 @@
+<!DOCTYPE html> 
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <style>
+        body {
+            background-color: rgb(103, 24, 119);
+            color: rgb(196, 230, 119); /* Isso é um comentário em CSS */
+            font: normal 20pt Arial;
+        }
+        h1 {
+            color: rgb(253, 215, 0);
+        }
+    </style>
+    <title>Meu Primeiro Programa em JS</title>
+</head>
+<body>
+    <h1>Olá, Mundo!</h1>
+    <p>Me livrei da maldição!</p> <!--Isso é um comentário em HTML-->
+    <script>
+        var n1 = Number(window.prompt('Digite o primeiro número: '))//string
+        var n2 = Number(window.prompt('Digite o segundo número: '))//string
+        var soma = n1 + n2
+        window.alert('A soma dos valores é ' + String(soma))//Concatenado
+        window.alert(`A soma também mostrada aki ${soma}`)//Template string
+    </script>
+
+</body>
+</html>
