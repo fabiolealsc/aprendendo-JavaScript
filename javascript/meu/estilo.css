@@ -1,0 +1,55 @@
+body {
+    background: rgba(79, 141, 9, 0.274);
+    font: normal 15pt Arial;
+
+}
+header {
+    color: white;
+    text-align: center; 
+}
+section {
+    background: rgb(255, 255, 255);
+    border-radius: 10px;
+    padding: 15px;
+    width: 500px;
+    margin: auto;
+    margin-top: 20px;
+    box-shadow: 3px 3px 10px rgba(0, 0, 0, 0.411);
+
+}
+.titulo{
+    background-color: rgb(192, 192, 207);
+    text-align: center;
+    text-shadow: 2px 2px 2px blueviolet;
+    
+}
+.js{
+    background-color: rgb(247, 244, 104);
+    text-align: center;
+    text-shadow: 2px 2px 2px rgb(226, 183, 43);
+}
+.html{
+    background-color: rgb(255, 188, 62);
+    text-align: center;
+    text-shadow: 2px 2px 2px rgb(226, 95, 43);
+}
+.css{
+    background-color: rgb(99, 147, 236);
+    text-align: center;
+    text-shadow: 2px 2px 2px rgb(43, 92, 226);
+}
+footer {
+    color: white;
+    text-align: center;
+    font-style: italic;
+
+}
+h1 {
+    font: normal 30pt Comic Sans MS;
+}
+h2 {
+    color: red;
+}
+p {
+    text-align: justify;  
+}
